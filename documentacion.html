@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es" data-page="documentacion">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Documentación | Darío Nieto Lorente</title>
+  <meta name="description" content="Documentación técnica, CV, certificados y prácticas complementarias de Darío Nieto Lorente.">
+  <meta name="author" content="Darío Nieto Lorente">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a class="brand" href="index.html" aria-label="Inicio">
+        <span class="brand-mark">DNL</span>
+        <span class="brand-text">Darío Nieto Lorente</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" data-nav-menu>
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="sobre-mi.html" class="nav-link">Sobre mí</a>
+        <a href="formacion.html" class="nav-link">Formación</a>
+        <a href="experiencia.html" class="nav-link">Experiencia</a>
+        <a href="tecnologias.html" class="nav-link">Tecnologías</a>
+        <a href="proyectos.html" class="nav-link">Proyectos</a>
+        <a href="documentacion.html" class="nav-link active">Documentación</a>
+        <a href="contacto.html" class="nav-link">Contacto</a>
+
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Cambiar tema">
+          <span data-theme-label>Tema</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero section">
+      <div class="network-bg" aria-hidden="true"></div>
+
+      <div class="container documentation-hero-grid">
+        <div class="page-hero-content reveal">
+          <p class="eyebrow">Documentación</p>
+
+          <h1>Documentos, prácticas y evidencias técnicas.</h1>
+
+          <p class="hero-lead">
+            Esta sección reúne mi CV, certificados y prácticas complementarias que sirven como respaldo técnico de mi formación y evolución.
+          </p>
+
+          <p class="hero-text">
+            Los proyectos principales están explicados en su propia página. Aquí se recopilan documentos descargables que completan el portfolio sin convertir cada práctica en un proyecto destacado.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="assets/docs/cv/DNL-CV.pdf" download>Descargar CV</a>
+            <a class="btn btn-secondary" href="#practicas-complementarias">Ver prácticas</a>
+          </div>
+        </div>
+
+        <aside class="documentation-summary-card reveal" aria-label="Resumen de documentación">
+          <p class="panel-label">Archivo técnico</p>
+
+          <div class="documentation-summary-list">
+            <div>
+              <span>CV</span>
+              <p>Currículum actualizado.</p>
+            </div>
+
+            <div>
+              <span>Certificados</span>
+              <p>Anexo Erasmus, B2 y notas.</p>
+            </div>
+
+            <div>
+              <span>Prácticas</span>
+              <p>Trabajos técnicos complementarios.</p>
+            </div>
+          </div>
+
+          <div class="mini-terminal">
+            <div class="terminal-top">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <pre><code>&gt; documentacion
+principal=cv_certificados
+otros=practicas_tecnicas
+descarga=directa</code></pre>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section compact-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Documentos principales</p>
+          <h2>CV y certificados</h2>
+          <p>
+            Documentación principal para consultar mi perfil, formación, certificados e información académica.
+          </p>
+        </div>
+
+        <div class="main-docs-grid">
+          <article class="main-doc-card reveal" data-doc-card data-doc-category="cv">
+            <span class="doc-type">CV</span>
+            <h3>Currículum Darío Nieto Lorente</h3>
+            <p>Documento principal con perfil, experiencia, formación, competencias e idiomas.</p>
+            <a class="btn btn-primary" href="assets/docs/cv/DNL-CV.pdf" download>Descargar CV</a>
+          </article>
+
+          <article class="main-doc-card reveal" data-doc-card data-doc-category="certificados">
+            <span class="doc-type">Certificado</span>
+            <h3>Anexo final Erasmus+ Roma</h3>
+            <p>Documento final de prácticas internacionales realizadas en la Pontificia Università della Santa Croce.</p>
+            <a class="btn btn-secondary" href="assets/docs/certificados/DNL-AnexoRoma.pdf" download>Descargar anexo</a>
+          </article>
+
+          <article class="main-doc-card reveal" data-doc-card data-doc-category="certificados">
+            <span class="doc-type">Certificado</span>
+            <h3>Inglés B2 Oxford</h3>
+            <p>Certificación oficial de nivel B2 de inglés.</p>
+            <a class="btn btn-secondary" href="assets/docs/certificados/DNL-B2.pdf" download>Descargar certificado</a>
+          </article>
+
+          <article class="main-doc-card reveal" data-doc-card data-doc-category="certificados">
+            <span class="doc-type">Certificado</span>
+            <h3>Notas Grado Medio SMR</h3>
+            <p>Documento académico de calificaciones del Grado Medio en Sistemas Microinformáticos y Redes.</p>
+            <a class="btn btn-secondary" href="assets/docs/certificados/DNL-NotasGM.pdf" download>Descargar notas</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="practicas-complementarias">
+      <div class="container">
+        <div class="section-heading split-heading reveal">
+          <div>
+            <p class="eyebrow">Archivo complementario</p>
+            <h2>Prácticas técnicas complementarias</h2>
+            <p>
+              Trabajos técnicos descargables. No están destacados como proyectos principales, pero forman parte de mi recorrido práctico.
+            </p>
+          </div>
+
+          <div class="docs-tools">
+            <input
+              class="docs-search"
+              type="search"
+              placeholder="Buscar documento..."
+              aria-label="Buscar documento"
+              data-docs-search>
+
+            <div class="docs-filter-bar" aria-label="Filtros de documentación">
+              <button class="filter-btn active" type="button" data-doc-filter="todos">Todos</button>
+              <button class="filter-btn" type="button" data-doc-filter="sistemas">Sistemas</button>
+              <button class="filter-btn" type="button" data-doc-filter="redes">Redes</button>
+              <button class="filter-btn" type="button" data-doc-filter="otros">Otros</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="docs-grid">
+          <article class="doc-card reveal" data-doc-card data-doc-category="otros">
+            <span class="doc-badge">Otros</span>
+            <h3>Compartir archivos en Windows</h3>
+            <p>Práctica sobre configuración y uso de recursos compartidos en Windows.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-101-CompartirWIN.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="otros">
+            <span class="doc-badge">Otros</span>
+            <h3>Instalación de virtualizadores</h3>
+            <p>Documento sobre instalación y preparación de entornos de virtualización.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISO101-InstalarVirtualizadores.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="otros">
+            <span class="doc-badge">Otros</span>
+            <h3>Licencias de software</h3>
+            <p>Práctica relacionada con tipos de licencias y uso de software.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP102-Licencias.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="otros">
+            <span class="doc-badge">Otros</span>
+            <h3>Aplicación Java en Windows</h3>
+            <p>Trabajo práctico sobre instalación o ejecución de aplicación Java en entorno Windows.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP203-AppJavaWIN.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="otros">
+            <span class="doc-badge">Otros</span>
+            <h3>Idioma en Windows y Linux</h3>
+            <p>Configuración de idioma y ajustes regionales en sistemas Windows y Linux.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP211-IdiomaWIN-Linux.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="otros">
+            <span class="doc-badge">Otros</span>
+            <h3>Conversión JPG a PDF</h3>
+            <p>Práctica de conversión y gestión de archivos de imagen y PDF.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP211-JPG-PDF.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="otros">
+            <span class="doc-badge">Otros</span>
+            <h3>Upgrade de sistema</h3>
+            <p>Documento sobre actualización o mejora de sistema operativo.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP215-Upgrade.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="sistemas">
+            <span class="doc-badge">Sistemas</span>
+            <h3>fdisk y GParted</h3>
+            <p>Práctica sobre particionado y gestión de discos mediante fdisk y GParted.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP303-fdisk-GParted.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="sistemas">
+            <span class="doc-badge">Sistemas</span>
+            <h3>Multiboot</h3>
+            <p>Trabajo técnico sobre arranque múltiple y convivencia de sistemas.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP304-Multiboot.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="sistemas">
+            <span class="doc-badge">Sistemas</span>
+            <h3>MultiDisk</h3>
+            <p>Práctica relacionada con varios discos y gestión de almacenamiento.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP304-MultiDisk.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="sistemas">
+            <span class="doc-badge">Sistemas</span>
+            <h3>Reparación de sistema</h3>
+            <p>Trabajo sobre reparación, recuperación o corrección de incidencias en sistemas.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP304-Reparar.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="sistemas">
+            <span class="doc-badge">Sistemas</span>
+            <h3>Gestión de cuentas en Windows y Linux</h3>
+            <p>Documento sobre administración de usuarios y cuentas en ambos entornos.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP401-GestCuentasWinLinux.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="redes">
+            <span class="doc-badge">Redes</span>
+            <h3>Configuración de red en Windows y Linux</h3>
+            <p>Práctica sobre parámetros de red, conectividad y configuración TCP/IP.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP402-ConfigRedWinLinux.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="sistemas">
+            <span class="doc-badge">Sistemas</span>
+            <h3>Reset de contraseña en Windows</h3>
+            <p>Documento sobre recuperación o reseteo de contraseña en entorno Windows.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP406-ResetPasswWIN.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="otros">
+            <span class="doc-badge">Otros</span>
+            <h3>Git y GitHub</h3>
+            <p>Práctica sobre control de versiones, repositorios y uso básico de GitHub.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-ISOP411-Git-GitHub.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="redes">
+            <span class="doc-badge">Redes</span>
+            <h3>Network Latency View</h3>
+            <p>Práctica relacionada con análisis de latencia y herramientas de monitorización de red.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-PARP203-NetworkLatencyView.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="redes">
+            <span class="doc-badge">Redes</span>
+            <h3>DLNA</h3>
+            <p>Documento sobre tecnología DLNA y servicios de red relacionados con contenido multimedia.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-PARP204-DLNA.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="redes">
+            <span class="doc-badge">Redes</span>
+            <h3>Sniffers</h3>
+            <p>Práctica sobre captura, análisis y observación de tráfico de red.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-PARP401-Sniffers.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="redes">
+            <span class="doc-badge">Redes</span>
+            <h3>Linux Network</h3>
+            <p>Trabajo sobre configuración y uso de red en sistemas Linux.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-PARP405-LinuxNetwork.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="redes">
+            <span class="doc-badge">Redes</span>
+            <h3>OpenDNS</h3>
+            <p>Práctica sobre uso de OpenDNS, resolución DNS y configuración de red.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-PARP411-OpenDNS.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="redes">
+            <span class="doc-badge">Redes</span>
+            <h3>Ping y ARP</h3>
+            <p>Documento sobre pruebas de conectividad, resolución de direcciones y diagnóstico básico.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-PARP503-PingArp.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="redes">
+            <span class="doc-badge">Redes</span>
+            <h3>SSMTP por CLI</h3>
+            <p>Práctica de configuración y uso de SSMTP desde línea de comandos.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-PARP504-SSMTP_CLI.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="redes">
+            <span class="doc-badge">Redes</span>
+            <h3>CLI, IP Linux y VLAN</h3>
+            <p>Trabajo sobre comandos de red, configuración IP en Linux y conceptos de VLAN.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-PARP601-CLI-IP-Linux-VLAN.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="redes">
+            <span class="doc-badge">Redes</span>
+            <h3>Routers Windows</h3>
+            <p>Práctica sobre configuración de routers en entorno Windows.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-PARP603-RoutersWIN.docx" download>Descargar DOCX</a>
+          </article>
+
+          <article class="doc-card reveal" data-doc-card data-doc-category="redes">
+            <span class="doc-badge">Redes</span>
+            <h3>Routers Linux: tres routers en anillo</h3>
+            <p>Práctica de enrutamiento con tres routers Linux en topología de anillo.</p>
+            <a href="assets/docs/documentacion/otros/516-DaríoNL-PARP604-RoutersLinux-3RoutersAnillo.docx" download>Descargar DOCX</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-card reveal">
+          <div>
+            <p class="eyebrow">Continuar</p>
+            <h2>Ver proyectos principales</h2>
+            <p>
+              Los documentos anteriores complementan el portfolio. Los trabajos más importantes están desarrollados dentro de Proyectos.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="proyectos.html">Ver proyectos</a>
+            <a class="btn btn-secondary" href="contacto.html">Contactar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <span class="brand-mark">DNL</span>
+          <span class="brand-text">Darío Nieto Lorente</span>
+        </a>
+
+        <p>Técnico informático de sistemas y redes.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="mailto:365darionieto@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/dar%C3%ADo-nieto-lorente-a3496b2aa/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/Dario-Tech-Valley/git-repo" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.youtube.com/@dario_techValley" target="_blank" rel="noopener noreferrer">YouTube</a>
+      </div>
+
+      <p class="footer-copy">
+        © <span data-current-year></span> Darío Nieto Lorente. Código bajo licencia MIT. Documentos personales: todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
